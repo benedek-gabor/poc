@@ -1,5 +1,6 @@
 package com.digs;
 
+import org.jbehave.core.annotations.Given;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
@@ -11,18 +12,16 @@ public class FirefoxTestCase {
 	private WebDriver driver;
 	private String url;
 	
-	@BeforeClass
+	@Given(value = "")
 	public void setUp(){
 		driver = new FirefoxDriver();
 		url = "https://www.caplin.com/";
 	}
 	
-	@Test
 	public void testFirefox(){
 		driver.get(url);
 	}
 	
-	@AfterClass
 	public void tearDown(){
 		driver.quit();
 	}
