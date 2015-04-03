@@ -9,9 +9,5 @@ public abstract class AbstractCountingStep {
     protected static final org.apache.log4j.Logger LOG = org.apache.log4j.Logger.getLogger(AbstractCountingStep.class.getName());
 
     public AbstractCountingStep(){
-        System.setProperty( "hansFinished", "false");
-        System.setProperty( "huckFinished", "false");
-        System.setProperty( "karlFinished", "false");
-        System.setProperty( "tomFinished", "false");
     }
 }

@@ -6,14 +6,14 @@
 
     <!-- Parent module of the Bdd project  -->
 
-    <artifactId>missisipi-countingg</artifactId>
+    <artifactId>browser-testing</artifactId>
     <groupId>com.digs</groupId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <!-- Display name -->
     <name>${project.groupId}-${project.artifactId}</name>
-    <description>Example project for test multithreading. </description>
+    <description>Study lot! </description>
 
     <properties>
         <namespace>com.ge.hc.pfh.analytics.apps</namespace>

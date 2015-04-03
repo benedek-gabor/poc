@@ -17,8 +17,8 @@ import org.jbehave.core.steps.InstanceStepsFactory;
 
 
 
-import steps.EinundzwanzigCountingSteps;
-import steps.MissisipiCountingSteps;
+import steps.FirefoxSteps;
+import steps.ChromeSteps;
 
 import java.util.Arrays;
 import java.util.List;
@@ -50,7 +50,7 @@ public class ThreadsStories extends JUnitStories {
 
     @Override
     public InjectableStepsFactory stepsFactory() {
-        return new InstanceStepsFactory(configuration(), new MissisipiCountingSteps(), new EinundzwanzigCountingSteps());
+        return new InstanceStepsFactory(configuration(), new ChromeSteps(), new FirefoxSteps());
     }
 
     @Override
