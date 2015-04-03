@@ -6,6 +6,9 @@ import org.jbehave.core.annotations.Given;
  */
 public abstract class AbstractCountingStep {
 
+	private int i= 5;
+	
     public AbstractCountingStep(){
+    	
     }
 }
