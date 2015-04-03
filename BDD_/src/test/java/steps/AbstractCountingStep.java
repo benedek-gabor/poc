@@ -1,5 +1,4 @@
 package steps;
-
 import org.jbehave.core.annotations.Given;
 
 /**
