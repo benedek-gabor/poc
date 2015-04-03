@@ -1,6 +1,6 @@
 package steps;
 
-import org.jbehave.core.annotations.When;
+import org.jbehave.core.annotations.Given;
 
 /**
  * Created by 212427754 on 2015.01.06..
