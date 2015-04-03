@@ -8,6 +8,9 @@ public abstract class AbstractCountingStep {
 	
 	private int i = 10;
 
+	private int i= 5;
+	
     public AbstractCountingStep(){
+    	
     }
 }
